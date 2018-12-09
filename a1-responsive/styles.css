@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit|Sriracha');
+
+/*Three Styles: @Font Face, RGBA, Border Radius
+font-family: 'Sriracha', cursive;
+font-family: 'Kanit', sans-serif;
+Colors[]: #D62F27, #EFB528, #057BBA
+Shaders[]: #EAE9E8, #D3D2D1, #BCBAB8*/
+
+*{margin:0;padding:0;box-sizing: border-box;}
+
+/*Text Styling*/
+h1{font-family: 'Sriracha', cursive; font-size: 40px;}
+h2{font-family: 'Sriracha', cursive; font-size: 35px;}
+h3{font-family: 'Sriracha', cursive; font-size: 20px; }
+p{font-family: 'Kanit', sans-serif; font-size: 16px; line-height: 16px;}
+
+/*Hyperlink Styling*/
+a:link{}
+a:visited{}
+a:hover{}
+
+/*Container*/
+.container{display: flex; justify-content: center;}
+.text-container{width: 100%; text-align: center; padding: 15px;}
+.image-container{width:60%; height: 70vh; background-image: url(images/keith-haring-profile.jpg); background-repeat: no-repeat; background-size: contain; float: left;}
+
+/*List Styling*/
+nav{position: fixed; bottom: 0; width: 100%;}
+ul{list-style:none; text-align: center;}
+li{color: black; width: 30%; height: 100%; cursor: pointer; display: inline-block;}
+li:hover{transition: 0.4s ease;}
+
+/*SVG Styling*/
+path{fill:black;}
+path:hover{fill: blue; transition: 0.3 ease;}
+
+/*Gallery*/
+.introduction-container{width: 100%; height: 100vh;}
+.introduction-container h2{padding: 15px; text-align: center; font-size: xx-large}
+
+/*About*/
+.about-container{width: 100%; height: 100vh;}
+
+
+/*Contact*/
+.contact-container{width: 100%; height: 100vh;}
+.contact-mini-container{padding: 15px};
+
+/*Form*/
+form{font-family: 'Kanit', sans-serif;}
+input{width: 100%; height: 50px; background-color: #EAE9E8; border: none; padding: 15px; outline: none; font-family: 'Kanit', sans-serif;}
+input:focus{border: none; background-color: #D3D2D1;}
+label{width: 100%; display: flex; font-family: 'Kanit', sans-serif;}
+input[type=submit]{width: 25%; height: 50px; text-align: left; background-color: #D62F27; margin-top: 15px; font-family: 'Sriracha', cursive; color: white; font-size: 35px;}
+input[type=submit]:hover{background-color: #8A2121;}
+textarea{width: 100%; height: 100px; display: flex; background-color: #EAE9E8; padding: 15px; outline: none; border: none; font-family: 'Kanit', sans-serif; resize: none;}
+textarea:focus{background-color: #D3D2D1;}
+
+/*Media Queries*/
+/* Larger than tablet (also point when grid becomes active) */
+@media (min-width: 550px) {li{width: 20%;}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

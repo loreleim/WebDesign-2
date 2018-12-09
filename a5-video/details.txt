@@ -1,0 +1,23 @@
+Create a page that uses a movie clip. The video can come from your phone or a nicer camera you have or check out from the 4th floor resource center, in the 623 S Wabash building.
+
+(This assignment can be combined with other assignments, for example, you can put audio and video together, or put audio on your Flexbox Assignment.)
+
+Place your unique video clip on a page using the HTML5 video tag. Using text on your page, give the page a title and description.
+
+Use http://video.online-convert.com/convert-to-mp4 (Links to an external site.)Links to an external site. to convert your .mov (Quicktime Movie file) to the necessary file format. Then place your video on your page with the video tag. To convert directly from You Tube: https://www.onlinevideoconverter.com/video-converter (Links to an external site.)Links to an external site.
+
+Style options: 
+
+HTML5 Audio and Video.
+
+Video plugin: thenewcode.com/777/Create-… (Links to an external site.)Links to an external site.
+
+Useful HTML5 Video Techniques:
+
+http://bashooka.com/coding/useful-html5-video-techniques/ (Links to an external site.)Links to an external site.
+
+Example:
+
+<video controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>

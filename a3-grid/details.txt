@@ -1,0 +1,5 @@
+Create a bio page for either Rachel Andrew or Jen Simmons using using CSS Grid.
+
+Do not worry about responsive web design, just get to know basic CSS Grid techniques.
+
++Check out the CSS Grid guide: https://css-tricks.com/snippets/css/complete-guide-grid/ (Links to an external site.)Links to an external site.

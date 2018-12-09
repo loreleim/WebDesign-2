@@ -1,0 +1,8 @@
+Create a page using Flexbox featuring the World’s Columbian Exposition (Links to an external site.)Links to an external site..
+
+Include both text and at least one image on your page. Work with a predesigned grid layout. The page should be responsive.
+
+Suggested technique:
++ First create a design for your page on paper.
++ Next figure out what elements will be using typical CSS and what will need Flexbox.
++ Then begin coding. MOBILE FIRST!

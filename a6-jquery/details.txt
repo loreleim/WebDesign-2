@@ -1,0 +1,21 @@
+Create a biography page for the creator of jQuery, John Resig (Links to an external site.)Links to an external site.. List basic facts, show some images and/or videos on a page that uses the jQuery library. Do not use a pre-developed plugin.
+
+Consider:
++ .fadeIn() (Links to an external site.)Links to an external site.
++ .fadeOut() (Links to an external site.)Links to an external site.
++ .fadeTo() (Links to an external site.)Links to an external site.
++ .fadeToggle() (Links to an external site.)Links to an external site.
++ .slideDown() (Links to an external site.)Links to an external site.
++ .slideUp()
+ (Links to an external site.)Links to an external site.+ .slideToggle() (Links to an external site.)Links to an external site.
++ .toggle() (Links to an external site.)Links to an external site.
++ .click()
+ (Links to an external site.)Links to an external site.+ .on(‘click’) (Links to an external site.)Links to an external site.
++ .on(‘mouseover’) (Links to an external site.)Links to an external site.
++ .on(‘mouseout’) (Links to an external site.)Links to an external site.
+ (Links to an external site.)Links to an external site.+ .css() (Links to an external site.)Links to an external site.
++ .addClass() (Links to an external site.)Links to an external site.
++ .removeClass() (Links to an external site.)Links to an external site.
++ .toggleClass() (Links to an external site.)Links to an external site.
++ .show() (Links to an external site.)Links to an external site.
++ .hide() (Links to an external site.)Links to an external site.

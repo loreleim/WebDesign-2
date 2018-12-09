@@ -1,0 +1,22 @@
+Promote your favorite artist or designer with a one page RESPONSIVE layout.
+
+Your page needs to include all of the following HTML and style the elements using linked CSS:
++ Hyperlinks
++ An ordered or unordered list
++ A placed image using the image tag, and one placed using CSS
++ A table
++ A form
+
+Integrate at least three CSS3 styles in your page.
+Consider:
++ Border Radius
++ Box Shadow
++ Text Shadow
++ RGBA
++ @Font Face
++ Multiple Columns
++ Transtions
++ Transform
++ Gradients
+
+Keep it simple. Consider this page like a poster, giving necessary content like important facts about the artist or designer, quotes, and dates.

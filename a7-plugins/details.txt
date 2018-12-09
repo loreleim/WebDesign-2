@@ -1,0 +1,14 @@
+Create a biography page for the inventor of the World Wide Web, Tim Berners-Lee (Links to an external site.)Links to an external site.. List basic facts, dates, and images and/or videos.
+
+This page will be created with your jQuery plugin of choice.
+
+Consider:
++ Parallax
++ Light boxes (a.k.a., fancy boxes)
++ Carousel slider
++ Hover animation
++ Smooth scrolling
++ Sticky navigation
++ Hamburger menu
+
+There are tons of jQuery plugins out there, so choose one that interests you.

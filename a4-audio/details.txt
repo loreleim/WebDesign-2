@@ -1,0 +1,15 @@
+Your teacher is old, and knows nothing about what you are listening to these days. Create a page that introduces your teacher to a song from a band you like, utilizing the HTML5 audio tag. (This assignment can be combined with other assignments, for example, you can put audio and video together, or put audio on your Flexbox Assignment.)
+
+Use an audio clip of the song, and have information about the band or musician on the page. Consider adding lyrics or quotes. Make sure to style your page.
+Use http://audio.online-convert.com/convert-to-mp3 (Links to an external site.)Links to an external site. to convert your audio to the proper file format.
+Then place your audio on our page with the audio tag.
+
+Example JS to style:
+
+http://www.jplayer.org/ (Links to an external site.)Links to an external site.
+
+Example:
+
+<audio controls>
+  <source src="horse.mp3" type="audio/mpeg">
+</audio>
