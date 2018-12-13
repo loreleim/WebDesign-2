@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+    <head>
+        <title>Tim Berners-Lee</title>
+        <meta charset="utf-8">
+        <!--SEO Optimization-->
+        <meta name="description" content="Keith Haring is an illustrator based in New York city. His work is inspired by pop art movements, and underground graffiti culture of the 1980s.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Exteral Linking-->
+        <link rel="stylesheet" href="styles.css">
+        <!--Icons-->
+        <link rel="icon" href="images/icon.png">
+        <!--Apple Optimization 180x180-->
+        <link rel="apple-touch-icon" href="images/icon.png">
+    </head>
+    <body>
+        <div class="button-container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+        <div class="overlay" id="overlay">
+          <nav class="overlay-menu">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Recipes</a></li>
+              <li><a href="#">Save The Web</a></li>
+              <li><a href="#">Archives</a></li>
+            </ul>
+          </nav>
+        </div>
+        <main>
+            <section id = "home">
+              <div class="home-container"></div>
+            </section>
+            <section id = "quote">
+              <div class="quote-container">
+                <h2>When something is such</h2>
+              </div>
+              <div class="quote-container">
+                <h2>a creative medium as the web</h2>
+              </div>
+              <div class="quote-container">
+                <h2>the limits to it are our imagination.</h2>
+              </div>
+            </section>
+            <section id = "recipes"></section>
+            <section id = "save"></section>
+            <section id = "archive"></section>
+        </main>
+        <footer></footer>
+    <script
+  src="http://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous">
+  </script>    
+<script>
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat+Alternates');
+
+/**CSS3 (3 things): transitions/ease in, column count, font face
+Grid layoututilizes flex for text alignment inside grid elements
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;**/
+
+* {margin: 0;padding: 0;box-sizing: border-box;}
+
+header {color: #11100e;text-align: center;}
+
+body {min-height: 100vh;}
+
+img {width: 100%;}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3 ease;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: .8;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h2{ visibility: hidden; font-family: 'Monserrat Alternates', sans-serif;}
+
+p {
+    font-family: 'Lato', sans-serif;
+    margin: 15px;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+    color: white;
+}
+
+th {
+    width: 100%;
+}
+
+nav :hover {
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    position: static;
+    bottom: 0px;
+    height: 100px;
+    background: black;
+}
+
+.nav-columns {
+    height: 100%;
+}
+
+.nav-columns ul {
+    display: flex;
+    text-align: center;
+}
+
+.nav-columns li {
+    width: 32%;
+}
+
+.head-wrapper{
+    height: 100vh;
+    background: url(images/dreaming.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.projecttitle {
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    margin-left: calc(50w - var(--spacing-offset))!important;
+    padding-top: 40vh;
+}
+
+.textwrapper{
+    display: block;
+}
+
+.text{
+    color: white;
+}
+
+/**grid setup**/
+.mosaic {display: grid; height: 100vh; padding: 15px; grid-template-rows: repeat(6,1fr); grid-template-columns: repeat(5,1fr); grid-gap: 15px;}
+
+/**flexbox for inner**/
+.mosaic-item {
+    padding: 15px;
+    display: flex; /**allows the inner content to be aligned, not on a grid**/
+    background: grey;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center; /**align-items will move the text into the center as well. Content only would center the images**/
+}
+
+.mosaic-item.small {
+    background-image: url(images/ferriswheel.jpg);
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.mosaic-item.medium {
+    background-image: url(images/spotlight.jpg);
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.mosaic-item.medium.img1 {background-image: url(images/spotlight.jpg);}
+.mosaic-item.medium.img3{background-image: url(images/agricultural.jpg);}
+.mosaic-item.large {background-image: url(images/mammoth.jpg); grid-row: span 3; grid-column: span 3;}
+
+.mosaic-item.tall {grid-row: span 3; grid-column: span 2;}
+.mosaic-item.tall.img4 {background-image: url(images/skyride.jpg); transition: all ease-in-out 1s;}
+.mosaic-item.tall.img4:hover{background-image: none; background-color: black;}
+
+
+.mosaic-item.wide {background-image: url(images/exposition.jpg); grid-row: span 2; grid-column: span 3;}
+
+
